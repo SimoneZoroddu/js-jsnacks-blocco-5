@@ -1,4 +1,4 @@
-const people = [
+const peoples = [
   { name: 'Paolo', age: 35 },
   { name: 'Giulia', age: 24 },
   { name: 'Marco', age: 67 }
@@ -7,6 +7,6 @@ const people = [
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
 
-let nameString = ''
-people.forEach(name => nameString += name.name + ", ")
-console.log(nameString);
+let nameArray = []
+peoples.forEach(people => nameArray.push(people.name))
+console.log(nameArray.join(', '));

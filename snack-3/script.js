@@ -8,3 +8,14 @@ const numberPlus1 = []
 numbers.forEach(number => numberPlus1.push(number + 1))
 
 console.log(numberPlus1);
+
+/* con ciclo for
+let numberPlus1_2 = []
+
+for (let i = 0; i < numbers.length; i++) {
+    const number = numbers[i];
+    numberPlus1_2.push(number + 1)
+}
+
+console.log(numberPlus1_2);
+ */

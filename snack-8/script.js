@@ -23,10 +23,15 @@ const students = [
 // Risultato: '3C'
 let studentClass = ""
 
+/* 
 students.forEach(student => {
     if (student.name == 'Marco Lanci') {
       studentClass = student.class
     }
 })
+console.log(studentClass);
+ */
 
-  console.log(studentClass);
+// versione abbreviata
+students.forEach(student => student.name == 'Marco Lanci' ? studentClass = student.class : null)
+console.log(studentClass);
