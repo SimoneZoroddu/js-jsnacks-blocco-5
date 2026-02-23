@@ -22,21 +22,6 @@ const students = [
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
 
-/* 
-students.forEach(student => {
-  if (student.name == 'Marco Lanci') {
-    studentClass = student.class
-    }
-    })
-    console.log(studentClass);
-    */
-   
-// versione abbreviata
-/* let studentClass = ""
-
-students.forEach(student => student.name == 'Marco Lanci' ? studentClass = student.class : null)
-console.log(studentClass);
- */
 
 const student = students.find(student => student.name == 'Marco Lanci')
 
